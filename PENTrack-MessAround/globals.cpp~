@@ -116,7 +116,7 @@ void ReadInFile(const char *inpath, TConfig &vars){
 			}
 			std::getline(infile,rest);
 		}
-		else if (c == '#') // this line is a comment
+		else if (c == '#')
 			std::getline(infile,rest);
 		else if (section != ""){
 			infile >> key;

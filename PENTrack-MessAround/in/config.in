@@ -13,6 +13,7 @@ simtime 1000
 # secondaries: 1: secondary particles (e.g. from decay) will be simulated
 secondaries 1
 
+#you need three coordinates to specify a plane
 #cut through B-field (simtype == 4) *** (x1 y1 z1  x2 y2 z2  x3 y3 z3 num1 num2) 3 edges of cut plane, number of sample points in direction 1->2/1->3 ***
 BCutPlane 0.3 0 0.047  0.3 0 0.047  0.3 0 0.049  1 20000
 

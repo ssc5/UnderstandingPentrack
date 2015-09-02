@@ -45,7 +45,6 @@ TGeometry::TGeometry(TConfig &geometryin){
 				if (matname == materials[i].name){
 					model.mat = materials[i];
 					if (model.ID > 1){
-						//read in the triangles from the STL files
 						mesh.ReadFile(STLfile.c_str(),solids.size(),name);
 						model.name = name;
 					}

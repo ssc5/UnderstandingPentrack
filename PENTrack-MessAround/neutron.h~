@@ -273,7 +273,6 @@ private:
 	 *
 	 * @return Returns probability of reflection/transmission, in direction (theta_r, phi_r) or total if integral == true
 	 * need to call MRProb with: 
-	 * 
 	 * Transmit=false (since we want to consider reflection)
 	 * y state vector of neutron right before hit surface:
 	 * normal = [0, 0, 1] i.e. along the z-axis

@@ -102,7 +102,7 @@ double TNeutron::MRDist(bool transmit, bool integral, state_type y, const double
 	double theta_i = acos(costheta_i);
 	double Fmu = 0; // fourier transform of roughness correlation function
 	
-	//different calculation depending on whether you do an integral and whether or not the particle is transmitted
+	//different calculation depending on whether you do an integral and whether or not you transmit
 	if (!integral && !transmit)
 		Fmu = exp(-w*w/2*ki*ki*(sin(theta_i)*sin(theta_i) + sin(theta)*sin(theta) - 2*sin(theta_i)*sin(theta)*cos(phi)));
 	else if (!integral && transmit)

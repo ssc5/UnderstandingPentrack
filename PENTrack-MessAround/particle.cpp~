@@ -48,7 +48,7 @@ TParticle::TParticle(const char *aname, const  double qq, const long double mm, 
 	else
 		vstart = c_0 * beta;
 	
-//	std::cout << "PARTICLE WAS CREATED MAN" << std::endl;
+	std::cout << "PARTICLE WAS CREATED MAN" << std::endl;
 	
 	ystart.resize(6);
 	yend.resize(6);

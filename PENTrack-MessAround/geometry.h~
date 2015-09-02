@@ -24,8 +24,7 @@ static const double REFLECT_TOLERANCE = 1e-8;  ///< max distance of reflection p
 struct material{
 	std::string name; ///< Material name
 	double FermiReal; ///< Real part of Fermi potential
-	double FermiImag; ///< Imaginary part of Fermi potential:q:q
-	
+	double FermiImag; ///< Imaginary part of Fermi potential
 	double DiffProb; ///< Diffuse reflection probability
 	double SpinflipProb; ///< Probability for spin flip on reflection
 	double RMSRoughness; ///< RMS roughness of surface, for MicroRoughness model reflections
